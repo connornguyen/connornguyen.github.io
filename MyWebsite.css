@@ -12,20 +12,24 @@ body {
   background-color: #a9a7a7;
 }
 
-div {
+.all {
   position: relative;
   top: 20px;
   width: 900px;
   height: 900px;
-  border: 5px solid #466d1d;
+  border: 2px solid #466d1d;
   padding: 50px;
   margin: 20px;
   background-color: #e1e6e4;
   margin: 0 auto;
   border-radius: 10px;
-
 }
-
+.bio h2.AboutMe {
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 25px;
+}
 .profile-img {
   width: 400px;
   height: auto;
@@ -35,10 +39,11 @@ div {
 }
 
 .header {
-  color: #008000;
+  color: #010101;
   margin-bottom: 20px;
   display: block;
 }
+
 .linkedin-link {
   width: 200px; /* Set a fixed width for the link */
   display: block; /* Ensure it's treated as a block element */
@@ -63,16 +68,32 @@ h2 {
   margin-left: auto;
   font-size: 40px;
 }
+.imageandintroduce {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+}
+
+img {
+  width: 30%; /* Adjust the width of the image */
+  height: 30%; /* Maintain the aspect ratio */
+  border: 1px solid #ccc; /* Add a border */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a shadow */
+  border-radius: 50%; /* Make the corners rounded, creating a circle */
+  object-fit: cover;
+}
 
 .firstintroduce {
   max-width: 400px; /* Set a maximum width for the paragraph */
   margin: 0 auto; /* Center the paragraph horizontally */
   padding: 10px; /* Add some padding for spacing */
   text-align: justify; /* Justify the text for a cleaner look */
-  text-align: center;
+  text-align: left;
+  font-size: 20px;
 }
 
-
+.firstintroduce a {
+  text-decoration: underline;
+} /* This go to firstintroduce -> <a> tag*/
 
 .bio, .projects {
   margin-bottom: 20px;
