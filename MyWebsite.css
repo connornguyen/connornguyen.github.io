@@ -15,8 +15,8 @@ body {
 .all {
   position: relative;
   top: 20px;
-  width: 900px;
-  height: 900px;
+  width: 100%;
+  height: 100%;
   border: 2px solid #466d1d;
   padding: 50px;
   margin: 20px;
@@ -24,6 +24,18 @@ body {
   margin: 0 auto;
   border-radius: 10px;
 }
+
+.all .bio .listOfThingIhaveDone {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.all .bio .listOfThingIhaveDone section {
+  width: 25%;
+}
+
 .bio h2.AboutMe {
   color: rgb(0, 0, 0);
   font-size: 45px;
