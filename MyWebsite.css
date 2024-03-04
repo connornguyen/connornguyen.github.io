@@ -33,7 +33,16 @@ body {
 }
 
 .all .bio .listOfThingIhaveDone section {
+  padding: 10px; /* Add padding for spacing */
+  background-color: #d4f0c9; /* Light base green color */
+  border-top: 1px solid #85bb5c; /* Add top border */
+  border-bottom: 1px solid #85bb5c; /* Add bottom border */
+  text-align: center; /* Center the text horizontally */
   width: 25%;
+}
+
+.all .bio. .listOfThingIhaveDone section {
+  
 }
 
 .bio h2.AboutMe {
