@@ -9,7 +9,7 @@
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     padding: 20px;
-    background-color: #a9a7a7;
+    background-color: #f4f3f2;
   }
   
   .all {
@@ -20,7 +20,7 @@
     border: 2px solid #466d1d;
     padding: 50px;
     margin: 20px;
-    background-color: #e1e6e4;
+    background-color: #ffffff;
     margin: 0 auto;
     border-radius: 10px;
   }
@@ -33,10 +33,11 @@
   }
   
   .bio .listOfThingIhaveDone section {
+    margin-top: 15px;
     padding: 10px; /* Add padding for spacing */
-    background-color: #d4f0c9; /* Light base green color */
-    border-top: 1px solid #85bb5c; /* Add top border */
-    border-bottom: 1px solid #85bb5c; /* Add bottom border */
+    background-color: #f4f3f2; /* Light base green color */
+    border-top: 1px solid rgba(70, 109, 29, 0.2);; /* Add top border */
+    border-bottom: 1px solid rgba(70, 109, 29, 0.2);; /* Add bottom border */
     text-align: center; /* Center the text horizontally */
     width: 25%;
   }
