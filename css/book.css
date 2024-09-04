@@ -1,0 +1,131 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #a9a7a7;
+  }
+  
+  .main {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #466d1d;
+    padding: 50px;
+    margin: 20px;
+    background-color: #e1e6e4;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .bio .listOfThingIhaveDone {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .bio .listOfThingIhaveDone section {
+    padding: 10px; /* Add padding for spacing */
+    background-color: #d4f0c9; /* Light base green color */
+    border-top: 1px solid #85bb5c; /* Add top border */
+    border-bottom: 1px solid #85bb5c; /* Add bottom border */
+    text-align: center; /* Center the text horizontally */
+    width: 25%;
+  }
+  
+  .bio h2.AboutMe {
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 25px;
+  }
+  .profile-img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Ensures it's treated as a block element for margin auto to work */
+  }
+  
+  .header {
+    color: #010101;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .linkedin-link {
+    width: 200px; /* Set a fixed width for the link */
+    display: block; /* Ensure it's treated as a block element */
+    margin: 0 auto; /* Center the link horizontally */
+    text-align: center; /* Center the text within the link */
+  }
+  
+  .introduction {
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+  }
+  
+  h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: #536f53;
+    font-size: 50px;
+  }
+  
+  h2 {
+    margin-left: auto;
+    font-size: 40px;
+  }
+  .imageandintroduce {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+  }
+  
+  img {
+    width: 30%; /* Adjust the width of the image */
+    height: 30%; /* Maintain the aspect ratio */
+    border: 1px solid #ccc; /* Add a border */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    border-radius: 50%; /* Make the corners rounded, creating a circle */
+    object-fit: cover;
+  }
+  
+  .firstintroduce {
+    max-width: 400px; /* Set a maximum width for the paragraph */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    padding: 10px; /* Add some padding for spacing */
+    text-align: justify; /* Justify the text for a cleaner look */
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .firstintroduce a {
+    text-decoration: underline;
+  } /* This go to firstintroduce -> <a> tag*/
+  
+  .bio, .projects {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }

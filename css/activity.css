@@ -12,7 +12,7 @@
     background-color: #a9a7a7;
   }
   
-  .all {
+  .main {
     position: relative;
     top: 20px;
     width: 100%;
@@ -39,10 +39,6 @@
     border-bottom: 1px solid #85bb5c; /* Add bottom border */
     text-align: center; /* Center the text horizontally */
     width: 25%;
-  }
-  
-  .bio. .listOfThingIhaveDone section {
-    
   }
   
   .bio h2.AboutMe {
